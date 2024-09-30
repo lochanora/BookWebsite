@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar .nav-link {
+    color: #333;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #007bff;
+}
+
+.cart-popup a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Search Form */
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-form input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+/* Book Details */
+.book-detail {
+    margin-top: 30px;
+}
+
+.book-detail .book-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.book-info h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.book-info p {
+    margin: 5px 0;
+}
+
+.book-info form button {
+    margin-top: 10px;
+}
+
+.heart {
+    font-size: 2em;
+    cursor: pointer;
+    color: gray;
+}
+
+/* Recommendations & Selections */
+.recommendations,
+.selection-of-the-day {
+    margin-top: 40px;
+}
+
+.recommendations h2,
+.selection-of-the-day h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card-title:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Genre Links */
+.card-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.btn btn-primary btn-block{
+    background-color: black;
+    }
